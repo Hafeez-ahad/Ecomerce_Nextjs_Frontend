@@ -1,0 +1,102 @@
+.btn-custom {
+    background-color: rgb(255, 166, 0);
+    color: white;
+    padding: 8px 0px;
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-small-custom{
+    background-color: #FF7F00;
+    color: white;
+    padding: 8px 0px;
+    width: 180px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+
+/* SLICK SLIDER BUTTONS  */
+
+.slider-container {
+  position: relative;
+  /* padding: 40px 20px; */
+        width: 100%;
+
+
+}
+
+.slick-slide {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  /* opacity: 0.6; */
+  transform: scale(0.95);
+
+
+
+}
+
+
+
+/* Highlight the centered slide */
+.slick-center {
+  transform: scale(1.15);
+  opacity: 1;
+  z-index: 2;
+      
+
+}
+
+
+.slider-card-wrapper {
+padding: 20px 0px;
+
+  
+}
+.chid-wraper-slider{
+    width: fit-content;
+    background-color: #ffd000;
+    margin: auto;
+}
+
+
+/* ALL PRODUCTS  */
+.allProducts-css{
+/* background-color: aqua; */
+}
+
+/* SLICK SLIDER CENTER BUTTON  */
+
+.slick-arrow {
+background-color: #000000  !important;
+width: 40px !important;
+height: 40px !important;
+border-radius: 100%;
+text-align: center !important;
+display: flex !important;
+align-items: center !important;
+justify-content: center !important;
+}
+ 
+@media (max-width: 768px) {
+
+.slick-arrow {
+width: 35px !important;
+height: 35px !important;
+}
+}
+ 
+@media (max-width: 600px) {
+
+.slick-arrow {
+display: none !important ;
+}
+}
