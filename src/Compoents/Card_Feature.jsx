@@ -31,7 +31,7 @@ const Card_feature = ({ item }) => {
         </div>
 
         <div className="flex justify-center items-center px-[5px] mt-[10px] mb-[5px]">
-          <p className="text-[8px] md:text-[10px] bg-yellow-400 px-[4px] py-[2px] text-black font-bold rounded-[2px]">
+          <p className="text-[10px] md:text-[10px] bg-yellow-400 px-[4px] py-[2px] text-black font-bold rounded-[2px]">
             Add to cart
           </p>
         </div>

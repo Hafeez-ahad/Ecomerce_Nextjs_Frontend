@@ -34,7 +34,7 @@ const Card_custom = ({item}) => {
          <span className="  text-[9px] md:text-[10px]  bg-black w-fit px-[07px] py-[1px] rounded-[3px] text-yellow-400 font-bold">
         {item.price}$
       </span>
-        <p className=" text-[09px] md:text-[10px] bg-yellow-400 px-[4px] py-[2px] text-white rounded-[2px]">
+        <p className=" text-[09px] border border-black border-[1.5px] md:text-[10px] bg-yellow-400 px-[4px] py-[2px] text-white rounded-[2px]">
           Add to cart
         </p>
       </div>
