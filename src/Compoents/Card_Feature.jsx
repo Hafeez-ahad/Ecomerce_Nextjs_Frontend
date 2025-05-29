@@ -11,27 +11,27 @@ const Card_feature = ({ item }) => {
   return (
     <div
       key={item.id}
-      className="relative w-[100px] md:w-[200px] h-fit p-[6px] flex flex-col border-[2px] border-gray-400 rounded-[5px]"
+      className="relative w-[140px] md:w-[200px] h-fit p-[3px] md:p-[6px] flex flex-col border-[2px] border-gray-400 rounded-[5px]"
     >
       <img 
       onClick={()=> router.push(`detailPage/${item.id}`) }
         src={item.pic.img1}
         alt={item.title}
-        className="w-[120px]  md:w-[180px] h-[70px] md:h-[130px] object-cover m-auto mb-[5px]"
+        className="w-[135px]  md:w-[180px] h-[95px] md:h-[130px] object-cover m-auto mb-[5px]"
       />
       <div className="bg-black">
         <div className="flex flex-col items-center">
           <div className="text-white w-[100%] px-[5px] flex justify-between">
-            <p className="text-gray-300 text-[7px] md:text-[13px] line-through">${originalPrice}</p>
-            <p className="text-yellow-400 font-extrabold text-[7px] md:text-[13px]">${discountedPrice}</p>
+            <p className="text-gray-300 text-[10px] md:text-[13px] line-through">${originalPrice}</p>
+            <p className="text-yellow-400 font-extrabold text-[10px] md:text-[13px]">${discountedPrice}</p>
           </div>
-          <div className="text-[7px] md:text-[14px] mt-[3px] text-white font-bold">
+          <div className="text-[10px] md:text-[14px] mt-[8px] text-white font-bold">
             {item.title}
           </div>
         </div>
 
-        <div className="flex justify-center items-center px-[5px] mt-[8px] mb-[5px]">
-          <p className="text-[6px] md:text-[10px] bg-yellow-400 px-[4px] py-[2px] text-black font-bold rounded-[2px]">
+        <div className="flex justify-center items-center px-[5px] mt-[10px] mb-[5px]">
+          <p className="text-[7px] md:text-[10px] bg-yellow-400 px-[4px] py-[2px] text-black font-bold rounded-[2px]">
             Add to cart
           </p>
         </div>
